@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    </div>
+    <div class="container">
+        <ul class="thumb">
+            <li onmouseover="changeImageSrc('shoes1.png')"><img src="shoes1.png"></li>
+            <li onmouseover="changeImageSrc('shoes2.png')"><img src="shoes2.png"></li>
+            <li onmouseover="changeImageSrc('shoes3.png')"><img src="shoes3.png"></li>
+        </ul>
+        <div class="imgBox">
+            <h2>Nike Air Zoom</h2>
+            <img src="shoes1.png" class="shoess">
+            <ul class="size">
+                <span>Size</span>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ul>
+            <a href="#" class="btn">Add To Cart</a>
+        </div>
+    </div>
+    <script>
+        function changeImageSrc(anything) {
+            document.querySelector('.shoess').src = anything;
+        }
+    </script>
+</body>
+
+</html>
